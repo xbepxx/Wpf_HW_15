@@ -1,0 +1,163 @@
+﻿<Window x:Class="Wpf_HW_15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_HW_15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer Name="Obj">
+            <FlowDocument>
+                <Paragraph>
+                    <Floater Width="300" HorizontalAlignment="Right">
+                        <BlockUIContainer>
+                            <Image Source="Data/Cveti.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Bold>ОБЩИЕ СВЕДЕНИЯ</Bold>
+                </Paragraph>
+                <Paragraph>
+                    Объект павильон №29 «Цветоводство и озеленение» расположен на территории ВДНХ по адресу: г. Москва, проспект Мира, д.119, стр.29.
+Проект разработан в 1966 году.
+Павильон построен в 1970 г., на месте одноименного старого павильона.
+Назначение здания – общественное, выставочный павильон. Статус объекта – объект историко-градостроительной среды.
+Павильон «Цветоводство и озеленение» — редкий пример архитектуры советского брутализма, и что особенно важно, выполненный на заре монументализации советской архитектуры. Это наверняка самая интересная из поздних построек на ВДНХ. Этот небольшой павильон стал одним из первых реализованных проектов основанного в 1968 института по проектированию объектов культуры и здравоохранения «Моспроект-4».
+                </Paragraph>
+                <Paragraph>
+                    Здание имеет сложную конфигурацию - состоит из трех взаимосвязанных объёмов:
+                </Paragraph>
+                <List MarkerStyle="Square">
+                    <ListItem>
+                        <Paragraph>
+                            Зал субтропических и тропических растений, выполнен в виде одноэтажного объема квадратной формы. Соединен с главным залом одноэтажным переходом.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                         Главный зал, выполнен в виде одноэтажного объема сложной формы в плане. Соединен с залом субтропических и тропических растений, и административно-хозяйственным корпусом с помощью переходов.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                         Административно-хозяйственный корпус, выполнен двухэтажным прямоугольной формы в плане. Соединен с главным залом переходом.
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    В здании смонтировано следующее инженерное оборудование:
+                </Paragraph>
+                <Section FontSize="12">
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="0.2*"/>
+                        <TableColumn Width="*"/>
+                        <TableColumn Width="1.2*"/>
+                    </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Bold>
+                                            <Italic>
+                                                № пп.
+                                            </Italic>
+                                        </Bold>
+                                    </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                        <Bold>
+                                            <Italic>
+                                                Наименование системы
+                                            </Italic>
+                                        </Bold>
+                                    </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                        <Bold>
+                                            <Italic>
+Краткое описание
+                                            </Italic>
+                                        </Bold>
+                                        
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    1
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    СИСТЕМА ЭОМ
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Питание павильона № 29 «Цветоводство и озеленение» осуществляется от ТП №1 двумя вводами.
+Ввод 1 - фид.1-1 кабель СБ 3х120+1х50 
+Ввод 2 -  фид.1-26 кабель ААБ 3х185+1х50 напряжении 380/220 В.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    2
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                
+                                <Paragraph>
+                                 АВТОМАТИЧЕСКАЯ ПОЖАРНАЯ СИГНАЛИЗАЦИЯ И СОУЭ
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Пожарная сигнализация, адресного типа построена на базе приемно-контрольном приборе  «Рубеж 20П»
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    3
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    СИСТЕМА ВОДОСНАБЖЕНИЯ И ВОДООТВЕДЕНИЯ
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Система водоснабжение павильона № 29 «Цветоводство и озеленение» является смешанной хозяйственно-противопожарной, тупикового типа.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                </Section>
+                <BlockUIContainer>
+                    <StackPanel>
+                        <TextBlock Text="Если нет замечаний, нажми"/>
+                        <Button Content="Согласовано"/>
+                    </StackPanel>
+                </BlockUIContainer>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Open" Width="100" Click="Button_Click_2"/>
+            <Button Content="Save" Width="100" Click="Button_Click_1"/>
+            <Button Content="Clean" Width="100" Click="Button_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
